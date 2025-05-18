@@ -1,0 +1,22 @@
+.hellow{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #170aadd1;
+    color: white;
+    font-size: 24px;
+    padding: 10px 0;
+}
+.world{
+    display:inline-block;
+  padding-left: 50%;
+    animation:scrollLeft 7s linear infinite;
+}
+@keyframes scrollLeft{
+    0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+}
